@@ -1,0 +1,29 @@
+---
+import { Header } from "../components/sections/Header";
+import { Footer } from "../components/sections/Footer";
+export interface Props {
+  title: string;
+  description?: string;
+}
+const defaultDesc =
+  "A lightweight and minimalit Astro starter theme using Shopify with Svelte, Tailwind, and TypeScript.";
+const { title, description = defaultDesc } = Astro.props as Props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <slot />
+    </main>
+    <Footer client:visible />
+  </body>
+</html>
