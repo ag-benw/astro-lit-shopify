@@ -1,7 +1,7 @@
 ---
 import Layout from "../../layouts/Home.astro";
 import NotFoundLayout from "../../layouts/NotFoundLayout.astro";
-import { AddToCart } from "../../components/atoms/AddToCart";
+import { AddToCart } from "../../components/functional/AddToCart";
 import { getProductByHandle } from "../../utils/shopify";
 
 const { handle } = Astro.params;
@@ -116,7 +116,7 @@ const firstVariant = product?.variants.nodes[0];
                         </a>
                     </div>
                     <div class="mt-10">
-                        <AddToCart />
+                        <AddToCart product={firstVariant?.id} client:idle />
                     </div>
                     <div class="mt-6 text-center">
                         <a href="#" class="group inline-flex text-base font-medium">

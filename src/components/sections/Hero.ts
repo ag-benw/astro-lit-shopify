@@ -25,7 +25,6 @@ export class HeroSection extends ThemeProvider {
     </div>
   </div>
 </div>
-
         `
   }
 }

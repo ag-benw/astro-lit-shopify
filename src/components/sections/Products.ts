@@ -8,7 +8,7 @@ import ThemeProvider from "../global/ThemeProvider";
 export class Products extends ThemeProvider {
 
     @property({ type: Array, attribute: true })
-    product: []
+    product = []
 
     render() {
         return html`
@@ -36,7 +36,7 @@ export class Products extends ThemeProvider {
                 ${this.product.map((product: z.infer<typeof ProductResult>) => html`
                 <div class="group relative">
                     <div class="h-56 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-72 xl:h-80">
-                    <img src="${product.featuredImage.url}" alt="${product.featuredImage.altText}" class="h-full w-full object-cover object-center">
+                    <img src="${product.featuredImage?.url}" alt="${product.featuredImage?.altText}" class="h-full w-full object-cover object-center">
                     </div>
                     <h3 class="mt-4 text-sm text-gray-700">
                     <a href="/products/${product.handle}">

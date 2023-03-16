@@ -1,3 +1,4 @@
+import { publish } from "pubsub-js";
 import {
     getCart,
     addCartLines,
@@ -14,35 +15,14 @@ const emptyCart = {
 };
 
 export async function initCart() {
-    if (sessionStorage.getItem('cart')) {
+    if (localStorage.getItem('cart') !== null) {
 
-        const id = JSON.parse(sessionStorage.getItem('cart') as string).id
+        const id = JSON.parse(localStorage.getItem('cart') as string).id
 
         const data = await getCart(id);
 
         if (data) {
-            sessionStorage.setItem('cart', JSON.stringify({
-                id: data.id,
-                cost: data.cost,
-                checkoutUrl: data.checkoutUrl,
-                totalQuantity: data.totalQuantity,
-                lines: data.lines,
-            }));
-        } else {
-            sessionStorage.setItem('cart', JSON.stringify(emptyCart));
-        }
-    }
-}
-
-
-export async function addCartItem(item: { id: string; quantity: number }) {
-    const id = JSON.parse(sessionStorage.getItem('cart') as string).id
-
-    if (!id) {
-        const data = await createCart(item.id, item.quantity);
-
-        if (data) {
-            sessionStorage.setItem('cart', JSON.stringify({
+            localStorage.setItem('cart', JSON.stringify({
                 id: data.id,
                 cost: data.cost,
                 checkoutUrl: data.checkoutUrl,
@@ -51,28 +31,58 @@ export async function addCartItem(item: { id: string; quantity: number }) {
             }));
         }
     } else {
-        const data = await addCartLines(id, item.id, item.quantity);
+        localStorage.setItem('cart', JSON.stringify(emptyCart));
+    }
+}
 
-        if (data) {
-            sessionStorage.setItem('cart', JSON.stringify({
-                id: data.id,
-                cost: data.cost,
-                checkoutUrl: data.checkoutUrl,
-                totalQuantity: data.totalQuantity,
-                lines: data.lines,
-            }));
+
+export async function addCartItem(item: { id: string; quantity: number }) {
+    if (localStorage.getItem('cart') !== null) {
+
+        const cartObj = JSON.parse(localStorage.getItem('cart') || "");
+
+        const id = cartObj.id
+
+        if (!id) {
+            const data = await createCart(item.id, item.quantity);
+
+            if (data) {
+                localStorage.setItem('cart', JSON.stringify({
+                    id: data.id,
+                    cost: data.cost,
+                    checkoutUrl: data.checkoutUrl,
+                    totalQuantity: data.totalQuantity,
+                    lines: data.lines,
+                }));
+
+                publish('cart-drawer:toggle', true)
+            }
+        } else {
+            const data = await addCartLines(id, item.id, item.quantity);
+
+            if (data) {
+                localStorage.setItem('cart', JSON.stringify({
+                    id: data.id,
+                    cost: data.cost,
+                    checkoutUrl: data.checkoutUrl,
+                    totalQuantity: data.totalQuantity,
+                    lines: data.lines,
+                }));
+
+                publish('cart-drawer:toggle', true)
+            }
         }
     }
 }
 
 export async function removeCartItems(lineIds: string[]) {
-    const id = JSON.parse(sessionStorage.getItem('cart') as string).id
+    const id = JSON.parse(localStorage.getItem('cart') as string).id
 
     if (id) {
         const data = await removeCartLines(id, lineIds);
 
         if (data) {
-            sessionStorage.setItem('cart', JSON.stringify({
+            localStorage.setItem('cart', JSON.stringify({
                 id: data.id,
                 cost: data.cost,
                 checkoutUrl: data.checkoutUrl,

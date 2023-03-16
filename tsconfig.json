@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-      "experimentalDecorators": true
+      "experimentalDecorators": true,
+      "useDefineForClassFields": false
   },
   "extends": "astro/tsconfigs/strict"
 }
