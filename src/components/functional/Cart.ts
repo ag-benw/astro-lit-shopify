@@ -4,6 +4,7 @@ import { customElement, property, state } from 'lit/decorators.js';
 import ThemeProvider from "../global/ThemeProvider";
 import { subscribe, publish } from "pubsub-js";
 import type { CartItemResult, CartResult } from "../../utils/schemas";
+import { removeCartItems } from "../../utils/cart";
 
 @customElement('cart-drawer')
 export class CartDrawer extends ThemeProvider {
@@ -25,9 +26,19 @@ export class CartDrawer extends ThemeProvider {
     subscribe('cart-drawer:toggle', this._handleDrawer.bind(this))
   }
 
+  private async _handleRemove(id: string) {
+    await removeCartItems([id])
+
+    this.handleUpdate()
+  }
+
   private _handleDrawer() {
     this.open = !this.open;
 
+    this.handleUpdate()
+  }
+
+  private handleUpdate() {
     const persistantCart: z.infer<typeof CartResult> = JSON.parse(localStorage.getItem('cart') as string)
 
     if (persistantCart !== null) {
@@ -89,8 +100,8 @@ export class CartDrawer extends ThemeProvider {
                                       <p class="text-gray-500">Qty ${item.quantity}</p>
           
                                       <div class="flex">
-                                        <button type="button"
-                                          class="font-medium text-indigo-600 hover:text-indigo-500">Remove</button>
+                                        <button type="button" class="font-medium text-indigo-600 hover:text-indigo-500"
+                                          @click=${()=> this._handleRemove(item.id)}>Remove</button>
                                       </div>
                                     </div>
                                   </div>
@@ -126,7 +137,7 @@ export class CartDrawer extends ThemeProvider {
                       <div class="border-t border-gray-200 py-6 px-4 sm:px-6">
                         <div class="flex justify-between text-base font-medium text-gray-900">
                           <p>Subtotal</p>
-                          <p>$${this.price}Hell</p>
+                          <p>$${this.price}</p>
                         </div>
                         <p class="mt-0.5 text-sm text-gray-500">Shipping and taxes calculated at checkout.</p>
                         <div class="mt-6">

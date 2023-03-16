@@ -54,8 +54,7 @@ export async function addCartItem(item: { id: string; quantity: number }) {
                     totalQuantity: data.totalQuantity,
                     lines: data.lines,
                 }));
-
-                publish('cart-drawer:toggle', true)
+                publish('cart-update:quantity', true)
             }
         } else {
             const data = await addCartLines(id, item.id, item.quantity);
@@ -69,7 +68,7 @@ export async function addCartItem(item: { id: string; quantity: number }) {
                     lines: data.lines,
                 }));
 
-                publish('cart-drawer:toggle', true)
+                publish('cart-update:quantity', true)
             }
         }
     }

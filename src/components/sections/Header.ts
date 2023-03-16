@@ -493,15 +493,15 @@ export class Header extends ThemeProvider {
                     </div>
     
                     <!--
-                                                                  'Women' flyout menu, show/hide based on flyout menu state.
-                                                
-                                                                  Entering: "transition ease-out duration-200"
-                                                                    From: "opacity-0"
-                                                                    To: "opacity-100"
-                                                                  Leaving: "transition ease-in duration-150"
-                                                                    From: "opacity-100"
-                                                                    To: "opacity-0"
-                                                                -->
+                                                                      'Women' flyout menu, show/hide based on flyout menu state.
+                                                    
+                                                                      Entering: "transition ease-out duration-200"
+                                                                        From: "opacity-0"
+                                                                        To: "opacity-100"
+                                                                      Leaving: "transition ease-in duration-150"
+                                                                        From: "opacity-100"
+                                                                        To: "opacity-0"
+                                                                    -->
                     <div class="absolute inset-x-0 top-full hidden">
                       <!-- Presentational element used to render the bottom shadow, if we put the shadow on the actual panel it pokes out the top, so we use this shorter element to hide the top of the shadow -->
                       <div class="absolute inset-0 top-1/2 bg-white shadow" aria-hidden="true"></div>
@@ -511,7 +511,7 @@ export class Header extends ThemeProvider {
                           <div class="grid grid-cols-2 gap-y-10 gap-x-8 py-16">
                             <div class="grid grid-cols-2 grid-rows-1 gap-8 text-sm">
                               <div
-                                class="group aspect-w-1 aspect-h-1 relative overflow-hidden rounded-md bg-gray-100 aspect-w-2 col-span-2">
+                                class="group aspect-h-1 relative overflow-hidden rounded-md bg-gray-100 aspect-w-2 col-span-2">
                                 <img src="https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg"
                                   alt="Models sitting back to back, wearing Basic Tee in black and bone."
                                   class="object-cover object-center group-hover:opacity-75">
@@ -526,7 +526,7 @@ export class Header extends ThemeProvider {
                                 </div>
                               </div>
     
-                              <div class="group aspect-w-1 aspect-h-1 relative overflow-hidden rounded-md bg-gray-100">
+                              <div class="group aspect-h-1 relative overflow-hidden rounded-md bg-gray-100">
                                 <img src="https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg"
                                   alt="Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees."
                                   class="object-cover object-center group-hover:opacity-75">
@@ -721,15 +721,15 @@ export class Header extends ThemeProvider {
                     </div>
     
                     <!--
-                                                                  'Men' flyout menu, show/hide based on flyout menu state.
-                                                
-                                                                  Entering: "transition ease-out duration-200"
-                                                                    From: "opacity-0"
-                                                                    To: "opacity-100"
-                                                                  Leaving: "transition ease-in duration-150"
-                                                                    From: "opacity-100"
-                                                                    To: "opacity-0"
-                                                                -->
+                                                                      'Men' flyout menu, show/hide based on flyout menu state.
+                                                    
+                                                                      Entering: "transition ease-out duration-200"
+                                                                        From: "opacity-0"
+                                                                        To: "opacity-100"
+                                                                      Leaving: "transition ease-in duration-150"
+                                                                        From: "opacity-100"
+                                                                        To: "opacity-0"
+                                                                    -->
                     <div class="absolute inset-x-0 top-full hidden">
                       <!-- Presentational element used to render the bottom shadow, if we put the shadow on the actual panel it pokes out the top, so we use this shorter element to hide the top of the shadow -->
                       <div class="absolute inset-0 top-1/2 bg-white shadow" aria-hidden="true"></div>
@@ -739,7 +739,7 @@ export class Header extends ThemeProvider {
                           <div class="grid grid-cols-2 gap-y-10 gap-x-8 py-16">
                             <div class="grid grid-cols-2 grid-rows-1 gap-8 text-sm">
                               <div
-                                class="group aspect-w-1 aspect-h-1 relative overflow-hidden rounded-md bg-gray-100 aspect-w-2 col-span-2">
+                                class="group aspect-h-1 relative overflow-hidden rounded-md bg-gray-100 aspect-w-2 col-span-2">
                                 <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-01.jpg"
                                   alt="Wooden shelf with gray and olive drab green baseball caps, next to wooden clothes hanger with sweaters."
                                   class="object-cover object-center group-hover:opacity-75">
@@ -754,7 +754,7 @@ export class Header extends ThemeProvider {
                                 </div>
                               </div>
     
-                              <div class="group aspect-w-1 aspect-h-1 relative overflow-hidden rounded-md bg-gray-100">
+                              <div class="group aspect-h-1 relative overflow-hidden rounded-md bg-gray-100">
                                 <img
                                   src="https://tailwindui.com/img/ecommerce-images/product-page-04-detail-product-shot-01.jpg"
                                   alt="Drawstring top with elastic loop closure and textured interior padding."
