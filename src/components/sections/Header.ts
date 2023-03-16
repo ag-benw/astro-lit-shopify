@@ -71,7 +71,7 @@ export class Header extends ThemeProvider {
                       class="object-cover object-center group-hover:opacity-75">
                     <div class="flex flex-col justify-end">
                       <div class="bg-white bg-opacity-60 p-4 text-base sm:text-sm">
-                        <a href="#" class="font-medium text-gray-900">
+                        <a href="/" class="font-medium text-gray-900">
                           <span class="absolute inset-0" aria-hidden="true"></span>
                           New Arrivals
                         </a>
@@ -86,7 +86,7 @@ export class Header extends ThemeProvider {
                       class="object-cover object-center group-hover:opacity-75">
                     <div class="flex flex-col justify-end">
                       <div class="bg-white bg-opacity-60 p-4 text-base sm:text-sm">
-                        <a href="#" class="font-medium text-gray-900">
+                        <a href="/" class="font-medium text-gray-900">
                           <span class="absolute inset-0" aria-hidden="true"></span>
                           Basic Tees
                         </a>
@@ -101,7 +101,7 @@ export class Header extends ThemeProvider {
                       class="object-cover object-center group-hover:opacity-75">
                     <div class="flex flex-col justify-end">
                       <div class="bg-white bg-opacity-60 p-4 text-base sm:text-sm">
-                        <a href="#" class="font-medium text-gray-900">
+                        <a href="/" class="font-medium text-gray-900">
                           <span class="absolute inset-0" aria-hidden="true"></span>
                           Accessories
                         </a>
@@ -116,27 +116,27 @@ export class Header extends ThemeProvider {
                     <p id="women-shoes-heading-mobile" class="font-medium text-gray-900">Shoes &amp; Accessories</p>
                     <ul role="list" aria-labelledby="women-shoes-heading-mobile" class="mt-6 flex flex-col space-y-6">
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Sneakers</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Sneakers</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Boots</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Boots</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Flats</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Flats</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Sandals</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Sandals</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Heels</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Heels</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Socks</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Socks</a>
                       </li>
                     </ul>
                   </div>
@@ -145,23 +145,23 @@ export class Header extends ThemeProvider {
                     <p id="women-collection-heading-mobile" class="font-medium text-gray-900">Shop Collection</p>
                     <ul role="list" aria-labelledby="women-collection-heading-mobile" class="mt-6 flex flex-col space-y-6">
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Everything</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Everything</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Core</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Core</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">New Arrivals</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">New Arrivals</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Sale</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Sale</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Accessories</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Accessories</a>
                       </li>
                     </ul>
                   </div>
@@ -172,27 +172,27 @@ export class Header extends ThemeProvider {
                     <p id="women-clothing-heading-mobile" class="font-medium text-gray-900">All Clothing</p>
                     <ul role="list" aria-labelledby="women-clothing-heading-mobile" class="mt-6 flex flex-col space-y-6">
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Basic Tees</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Basic Tees</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Artwork Tees</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Artwork Tees</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Tops</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Tops</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Bottoms</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Bottoms</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Swimwear</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Swimwear</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Underwear</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Underwear</a>
                       </li>
                     </ul>
                   </div>
@@ -201,27 +201,27 @@ export class Header extends ThemeProvider {
                     <p id="women-accessories-heading-mobile" class="font-medium text-gray-900">All Accessories</p>
                     <ul role="list" aria-labelledby="women-accessories-heading-mobile" class="mt-6 flex flex-col space-y-6">
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Watches</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Watches</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Wallets</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Wallets</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Bags</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Bags</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Sunglasses</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Sunglasses</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Hats</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Hats</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Belts</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Belts</a>
                       </li>
                     </ul>
                   </div>
@@ -232,23 +232,23 @@ export class Header extends ThemeProvider {
                     <p id="women-brands-heading-mobile" class="font-medium text-gray-900">Brands</p>
                     <ul role="list" aria-labelledby="women-brands-heading-mobile" class="mt-6 flex flex-col space-y-6">
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Full Nelson</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Full Nelson</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">My Way</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">My Way</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Re-Arranged</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Re-Arranged</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Counterfeit</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Counterfeit</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Significant Other</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Significant Other</a>
                       </li>
                     </ul>
                   </div>
@@ -265,7 +265,7 @@ export class Header extends ThemeProvider {
                       class="object-cover object-center group-hover:opacity-75">
                     <div class="flex flex-col justify-end">
                       <div class="bg-white bg-opacity-60 p-4 text-base sm:text-sm">
-                        <a href="#" class="font-medium text-gray-900">
+                        <a href="/" class="font-medium text-gray-900">
                           <span class="absolute inset-0" aria-hidden="true"></span>
                           Accessories
                         </a>
@@ -280,7 +280,7 @@ export class Header extends ThemeProvider {
                       class="object-cover object-center group-hover:opacity-75">
                     <div class="flex flex-col justify-end">
                       <div class="bg-white bg-opacity-60 p-4 text-base sm:text-sm">
-                        <a href="#" class="font-medium text-gray-900">
+                        <a href="/" class="font-medium text-gray-900">
                           <span class="absolute inset-0" aria-hidden="true"></span>
                           New Arrivals
                         </a>
@@ -295,7 +295,7 @@ export class Header extends ThemeProvider {
                       class="object-cover object-center group-hover:opacity-75">
                     <div class="flex flex-col justify-end">
                       <div class="bg-white bg-opacity-60 p-4 text-base sm:text-sm">
-                        <a href="#" class="font-medium text-gray-900">
+                        <a href="/" class="font-medium text-gray-900">
                           <span class="absolute inset-0" aria-hidden="true"></span>
                           Artwork Tees
                         </a>
@@ -310,19 +310,19 @@ export class Header extends ThemeProvider {
                     <p id="men-shoes-heading-mobile" class="font-medium text-gray-900">Shoes &amp; Accessories</p>
                     <ul role="list" aria-labelledby="men-shoes-heading-mobile" class="mt-6 flex flex-col space-y-6">
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Sneakers</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Sneakers</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Boots</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Boots</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Sandals</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Sandals</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Socks</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Socks</a>
                       </li>
                     </ul>
                   </div>
@@ -331,19 +331,19 @@ export class Header extends ThemeProvider {
                     <p id="men-collection-heading-mobile" class="font-medium text-gray-900">Shop Collection</p>
                     <ul role="list" aria-labelledby="men-collection-heading-mobile" class="mt-6 flex flex-col space-y-6">
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Everything</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Everything</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Core</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Core</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">New Arrivals</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">New Arrivals</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Sale</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Sale</a>
                       </li>
                     </ul>
                   </div>
@@ -354,23 +354,23 @@ export class Header extends ThemeProvider {
                     <p id="men-clothing-heading-mobile" class="font-medium text-gray-900">All Clothing</p>
                     <ul role="list" aria-labelledby="men-clothing-heading-mobile" class="mt-6 flex flex-col space-y-6">
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Basic Tees</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Basic Tees</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Artwork Tees</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Artwork Tees</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Pants</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Pants</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Hoodies</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Hoodies</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Swimsuits</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Swimsuits</a>
                       </li>
                     </ul>
                   </div>
@@ -379,27 +379,27 @@ export class Header extends ThemeProvider {
                     <p id="men-accessories-heading-mobile" class="font-medium text-gray-900">All Accessories</p>
                     <ul role="list" aria-labelledby="men-accessories-heading-mobile" class="mt-6 flex flex-col space-y-6">
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Watches</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Watches</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Wallets</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Wallets</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Bags</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Bags</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Sunglasses</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Sunglasses</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Hats</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Hats</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Belts</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Belts</a>
                       </li>
                     </ul>
                   </div>
@@ -410,19 +410,19 @@ export class Header extends ThemeProvider {
                     <p id="men-brands-heading-mobile" class="font-medium text-gray-900">Brands</p>
                     <ul role="list" aria-labelledby="men-brands-heading-mobile" class="mt-6 flex flex-col space-y-6">
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Re-Arranged</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Re-Arranged</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Counterfeit</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Counterfeit</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">Full Nelson</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">Full Nelson</a>
                       </li>
     
                       <li class="flow-root">
-                        <a href="#" class="-m-2 block p-2 text-gray-500">My Way</a>
+                        <a href="/" class="-m-2 block p-2 text-gray-500">My Way</a>
                       </li>
                     </ul>
                   </div>
@@ -432,16 +432,16 @@ export class Header extends ThemeProvider {
     
             <div class="space-y-6 border-t border-gray-200 py-6 px-4">
               <div class="flow-root">
-                <a href="#" class="-m-2 block p-2 font-medium text-gray-900">Company</a>
+                <a href="/" class="-m-2 block p-2 font-medium text-gray-900">Company</a>
               </div>
     
               <div class="flow-root">
-                <a href="#" class="-m-2 block p-2 font-medium text-gray-900">Stores</a>
+                <a href="/" class="-m-2 block p-2 font-medium text-gray-900">Stores</a>
               </div>
             </div>
     
             <div class="border-t border-gray-200 py-6 px-4">
-              <a href="#" class="-m-2 flex items-center p-2">
+              <a href="/" class="-m-2 flex items-center p-2">
                 <img src="https://tailwindui.com/img/flags/flag-canada.svg" alt="" class="block h-auto w-5 flex-shrink-0">
                 <span class="ml-3 block text-base font-medium text-gray-900">CAD</span>
                 <span class="sr-only">, change currency</span>
@@ -465,7 +465,7 @@ export class Header extends ThemeProvider {
                   </svg>
                 </button>
     
-                <a href="#" class="ml-2 p-2 text-gray-400 hover:text-gray-500">
+                <a href="/" class="ml-2 p-2 text-gray-400 hover:text-gray-500">
                   <span class="sr-only">Search</span>
                   <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
                     aria-hidden="true">
@@ -493,15 +493,15 @@ export class Header extends ThemeProvider {
                     </div>
     
                     <!--
-                                                                      'Women' flyout menu, show/hide based on flyout menu state.
-                                                    
-                                                                      Entering: "transition ease-out duration-200"
-                                                                        From: "opacity-0"
-                                                                        To: "opacity-100"
-                                                                      Leaving: "transition ease-in duration-150"
-                                                                        From: "opacity-100"
-                                                                        To: "opacity-0"
-                                                                    -->
+                                                                          'Women' flyout menu, show/hide based on flyout menu state.
+                                                        
+                                                                          Entering: "transition ease-out duration-200"
+                                                                            From: "opacity-0"
+                                                                            To: "opacity-100"
+                                                                          Leaving: "transition ease-in duration-150"
+                                                                            From: "opacity-100"
+                                                                            To: "opacity-0"
+                                                                        -->
                     <div class="absolute inset-x-0 top-full hidden">
                       <!-- Presentational element used to render the bottom shadow, if we put the shadow on the actual panel it pokes out the top, so we use this shorter element to hide the top of the shadow -->
                       <div class="absolute inset-0 top-1/2 bg-white shadow" aria-hidden="true"></div>
@@ -517,7 +517,7 @@ export class Header extends ThemeProvider {
                                   class="object-cover object-center group-hover:opacity-75">
                                 <div class="flex flex-col justify-end">
                                   <div class="bg-white bg-opacity-60 p-4 text-sm">
-                                    <a href="#" class="font-medium text-gray-900">
+                                    <a href="/" class="font-medium text-gray-900">
                                       <span class="absolute inset-0" aria-hidden="true"></span>
                                       New Arrivals
                                     </a>
@@ -532,7 +532,7 @@ export class Header extends ThemeProvider {
                                   class="object-cover object-center group-hover:opacity-75">
                                 <div class="flex flex-col justify-end">
                                   <div class="bg-white bg-opacity-60 p-4 text-sm">
-                                    <a href="#" class="font-medium text-gray-900">
+                                    <a href="/" class="font-medium text-gray-900">
                                       <span class="absolute inset-0" aria-hidden="true"></span>
                                       Basic Tees
                                     </a>
@@ -547,7 +547,7 @@ export class Header extends ThemeProvider {
                                   class="object-cover object-center group-hover:opacity-75">
                                 <div class="flex flex-col justify-end">
                                   <div class="bg-white bg-opacity-60 p-4 text-sm">
-                                    <a href="#" class="font-medium text-gray-900">
+                                    <a href="/" class="font-medium text-gray-900">
                                       <span class="absolute inset-0" aria-hidden="true"></span>
                                       Accessories
                                     </a>
@@ -562,27 +562,27 @@ export class Header extends ThemeProvider {
                                   <p id="women-shoes-heading" class="font-medium text-gray-900">Shoes &amp; Accessories</p>
                                   <ul role="list" aria-labelledby="women-shoes-heading" class="mt-4 space-y-4">
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Sneakers</a>
+                                      <a href="/" class="hover:text-gray-800">Sneakers</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Boots</a>
+                                      <a href="/" class="hover:text-gray-800">Boots</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Flats</a>
+                                      <a href="/" class="hover:text-gray-800">Flats</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Sandals</a>
+                                      <a href="/" class="hover:text-gray-800">Sandals</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Heels</a>
+                                      <a href="/" class="hover:text-gray-800">Heels</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Socks</a>
+                                      <a href="/" class="hover:text-gray-800">Socks</a>
                                     </li>
                                   </ul>
                                 </div>
@@ -591,23 +591,23 @@ export class Header extends ThemeProvider {
                                   <p id="women-collection-heading" class="font-medium text-gray-900">Shop Collection</p>
                                   <ul role="list" aria-labelledby="women-collection-heading" class="mt-4 space-y-4">
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Everything</a>
+                                      <a href="/" class="hover:text-gray-800">Everything</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Core</a>
+                                      <a href="/" class="hover:text-gray-800">Core</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">New Arrivals</a>
+                                      <a href="/" class="hover:text-gray-800">New Arrivals</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Sale</a>
+                                      <a href="/" class="hover:text-gray-800">Sale</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Accessories</a>
+                                      <a href="/" class="hover:text-gray-800">Accessories</a>
                                     </li>
                                   </ul>
                                 </div>
@@ -618,27 +618,27 @@ export class Header extends ThemeProvider {
                                   <p id="women-clothing-heading" class="font-medium text-gray-900">All Clothing</p>
                                   <ul role="list" aria-labelledby="women-clothing-heading" class="mt-4 space-y-4">
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Basic Tees</a>
+                                      <a href="/" class="hover:text-gray-800">Basic Tees</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Artwork Tees</a>
+                                      <a href="/" class="hover:text-gray-800">Artwork Tees</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Tops</a>
+                                      <a href="/" class="hover:text-gray-800">Tops</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Bottoms</a>
+                                      <a href="/" class="hover:text-gray-800">Bottoms</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Swimwear</a>
+                                      <a href="/" class="hover:text-gray-800">Swimwear</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Underwear</a>
+                                      <a href="/" class="hover:text-gray-800">Underwear</a>
                                     </li>
                                   </ul>
                                 </div>
@@ -647,27 +647,27 @@ export class Header extends ThemeProvider {
                                   <p id="women-accessories-heading" class="font-medium text-gray-900">All Accessories</p>
                                   <ul role="list" aria-labelledby="women-accessories-heading" class="mt-4 space-y-4">
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Watches</a>
+                                      <a href="/" class="hover:text-gray-800">Watches</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Wallets</a>
+                                      <a href="/" class="hover:text-gray-800">Wallets</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Bags</a>
+                                      <a href="/" class="hover:text-gray-800">Bags</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Sunglasses</a>
+                                      <a href="/" class="hover:text-gray-800">Sunglasses</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Hats</a>
+                                      <a href="/" class="hover:text-gray-800">Hats</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Belts</a>
+                                      <a href="/" class="hover:text-gray-800">Belts</a>
                                     </li>
                                   </ul>
                                 </div>
@@ -678,23 +678,23 @@ export class Header extends ThemeProvider {
                                   <p id="women-brands-heading" class="font-medium text-gray-900">Brands</p>
                                   <ul role="list" aria-labelledby="women-brands-heading" class="mt-4 space-y-4">
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Full Nelson</a>
+                                      <a href="/" class="hover:text-gray-800">Full Nelson</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">My Way</a>
+                                      <a href="/" class="hover:text-gray-800">My Way</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Re-Arranged</a>
+                                      <a href="/" class="hover:text-gray-800">Re-Arranged</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Counterfeit</a>
+                                      <a href="/" class="hover:text-gray-800">Counterfeit</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Significant Other</a>
+                                      <a href="/" class="hover:text-gray-800">Significant Other</a>
                                     </li>
                                   </ul>
                                 </div>
@@ -721,15 +721,15 @@ export class Header extends ThemeProvider {
                     </div>
     
                     <!--
-                                                                      'Men' flyout menu, show/hide based on flyout menu state.
-                                                    
-                                                                      Entering: "transition ease-out duration-200"
-                                                                        From: "opacity-0"
-                                                                        To: "opacity-100"
-                                                                      Leaving: "transition ease-in duration-150"
-                                                                        From: "opacity-100"
-                                                                        To: "opacity-0"
-                                                                    -->
+                                                                          'Men' flyout menu, show/hide based on flyout menu state.
+                                                        
+                                                                          Entering: "transition ease-out duration-200"
+                                                                            From: "opacity-0"
+                                                                            To: "opacity-100"
+                                                                          Leaving: "transition ease-in duration-150"
+                                                                            From: "opacity-100"
+                                                                            To: "opacity-0"
+                                                                        -->
                     <div class="absolute inset-x-0 top-full hidden">
                       <!-- Presentational element used to render the bottom shadow, if we put the shadow on the actual panel it pokes out the top, so we use this shorter element to hide the top of the shadow -->
                       <div class="absolute inset-0 top-1/2 bg-white shadow" aria-hidden="true"></div>
@@ -745,7 +745,7 @@ export class Header extends ThemeProvider {
                                   class="object-cover object-center group-hover:opacity-75">
                                 <div class="flex flex-col justify-end">
                                   <div class="bg-white bg-opacity-60 p-4 text-sm">
-                                    <a href="#" class="font-medium text-gray-900">
+                                    <a href="/" class="font-medium text-gray-900">
                                       <span class="absolute inset-0" aria-hidden="true"></span>
                                       Accessories
                                     </a>
@@ -761,7 +761,7 @@ export class Header extends ThemeProvider {
                                   class="object-cover object-center group-hover:opacity-75">
                                 <div class="flex flex-col justify-end">
                                   <div class="bg-white bg-opacity-60 p-4 text-sm">
-                                    <a href="#" class="font-medium text-gray-900">
+                                    <a href="/" class="font-medium text-gray-900">
                                       <span class="absolute inset-0" aria-hidden="true"></span>
                                       New Arrivals
                                     </a>
@@ -776,7 +776,7 @@ export class Header extends ThemeProvider {
                                   class="object-cover object-center group-hover:opacity-75">
                                 <div class="flex flex-col justify-end">
                                   <div class="bg-white bg-opacity-60 p-4 text-sm">
-                                    <a href="#" class="font-medium text-gray-900">
+                                    <a href="/" class="font-medium text-gray-900">
                                       <span class="absolute inset-0" aria-hidden="true"></span>
                                       Artwork Tees
                                     </a>
@@ -791,19 +791,19 @@ export class Header extends ThemeProvider {
                                   <p id="men-shoes-heading" class="font-medium text-gray-900">Shoes &amp; Accessories</p>
                                   <ul role="list" aria-labelledby="men-shoes-heading" class="mt-4 space-y-4">
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Sneakers</a>
+                                      <a href="/" class="hover:text-gray-800">Sneakers</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Boots</a>
+                                      <a href="/" class="hover:text-gray-800">Boots</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Sandals</a>
+                                      <a href="/" class="hover:text-gray-800">Sandals</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Socks</a>
+                                      <a href="/" class="hover:text-gray-800">Socks</a>
                                     </li>
                                   </ul>
                                 </div>
@@ -812,19 +812,19 @@ export class Header extends ThemeProvider {
                                   <p id="men-collection-heading" class="font-medium text-gray-900">Shop Collection</p>
                                   <ul role="list" aria-labelledby="men-collection-heading" class="mt-4 space-y-4">
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Everything</a>
+                                      <a href="/" class="hover:text-gray-800">Everything</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Core</a>
+                                      <a href="/" class="hover:text-gray-800">Core</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">New Arrivals</a>
+                                      <a href="/" class="hover:text-gray-800">New Arrivals</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Sale</a>
+                                      <a href="/" class="hover:text-gray-800">Sale</a>
                                     </li>
                                   </ul>
                                 </div>
@@ -835,23 +835,23 @@ export class Header extends ThemeProvider {
                                   <p id="men-clothing-heading" class="font-medium text-gray-900">All Clothing</p>
                                   <ul role="list" aria-labelledby="men-clothing-heading" class="mt-4 space-y-4">
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Basic Tees</a>
+                                      <a href="/" class="hover:text-gray-800">Basic Tees</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Artwork Tees</a>
+                                      <a href="/" class="hover:text-gray-800">Artwork Tees</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Pants</a>
+                                      <a href="/" class="hover:text-gray-800">Pants</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Hoodies</a>
+                                      <a href="/" class="hover:text-gray-800">Hoodies</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Swimsuits</a>
+                                      <a href="/" class="hover:text-gray-800">Swimsuits</a>
                                     </li>
                                   </ul>
                                 </div>
@@ -860,27 +860,27 @@ export class Header extends ThemeProvider {
                                   <p id="men-accessories-heading" class="font-medium text-gray-900">All Accessories</p>
                                   <ul role="list" aria-labelledby="men-accessories-heading" class="mt-4 space-y-4">
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Watches</a>
+                                      <a href="/" class="hover:text-gray-800">Watches</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Wallets</a>
+                                      <a href="/" class="hover:text-gray-800">Wallets</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Bags</a>
+                                      <a href="/" class="hover:text-gray-800">Bags</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Sunglasses</a>
+                                      <a href="/" class="hover:text-gray-800">Sunglasses</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Hats</a>
+                                      <a href="/" class="hover:text-gray-800">Hats</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Belts</a>
+                                      <a href="/" class="hover:text-gray-800">Belts</a>
                                     </li>
                                   </ul>
                                 </div>
@@ -891,19 +891,19 @@ export class Header extends ThemeProvider {
                                   <p id="men-brands-heading" class="font-medium text-gray-900">Brands</p>
                                   <ul role="list" aria-labelledby="men-brands-heading" class="mt-4 space-y-4">
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Re-Arranged</a>
+                                      <a href="/" class="hover:text-gray-800">Re-Arranged</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Counterfeit</a>
+                                      <a href="/" class="hover:text-gray-800">Counterfeit</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">Full Nelson</a>
+                                      <a href="/" class="hover:text-gray-800">Full Nelson</a>
                                     </li>
     
                                     <li class="flex">
-                                      <a href="#" class="hover:text-gray-800">My Way</a>
+                                      <a href="/" class="hover:text-gray-800">My Way</a>
                                     </li>
                                   </ul>
                                 </div>
@@ -915,27 +915,27 @@ export class Header extends ThemeProvider {
                     </div>
                   </div>
     
-                  <a href="#" class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-800">Company</a>
+                  <a href="/" class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-800">Company</a>
     
-                  <a href="#" class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-800">Stores</a>
+                  <a href="/" class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-800">Stores</a>
                 </div>
               </div>
     
               <!-- Logo -->
-              <a href="#" class="flex">
+              <a href="/" class="flex">
                 <span class="sr-only">Your Company</span>
                 <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
               </a>
     
               <div class="flex flex-1 items-center justify-end">
-                <a href="#" class="hidden text-gray-700 hover:text-gray-800 lg:flex lg:items-center">
+                <a href="/" class="hidden text-gray-700 hover:text-gray-800 lg:flex lg:items-center">
                   <img src="https://tailwindui.com/img/flags/flag-canada.svg" alt="" class="block h-auto w-5 flex-shrink-0">
                   <span class="ml-3 block text-sm font-medium">CAD</span>
                   <span class="sr-only">, change currency</span>
                 </a>
     
                 <!-- Search -->
-                <a href="#" class="ml-6 hidden p-2 text-gray-400 hover:text-gray-500 lg:block">
+                <a href="/" class="ml-6 hidden p-2 text-gray-400 hover:text-gray-500 lg:block">
                   <span class="sr-only">Search</span>
                   <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
                     aria-hidden="true">
@@ -945,7 +945,7 @@ export class Header extends ThemeProvider {
                 </a>
     
                 <!-- Account -->
-                <a href="#" class="p-2 text-gray-400 hover:text-gray-500 lg:ml-4">
+                <a href="/" class="p-2 text-gray-400 hover:text-gray-500 lg:ml-4">
                   <span class="sr-only">Account</span>
                   <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
                     aria-hidden="true">

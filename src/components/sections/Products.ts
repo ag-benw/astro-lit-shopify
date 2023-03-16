@@ -19,7 +19,7 @@ export class Products extends ThemeProvider {
                         <h2 class="text-2xl font-bold tracking-tight text-gray-900">
                             Trending products
                         </h2>
-                        <a href="#" class="hidden text-sm font-medium text-indigo-600 hover:text-indigo-500 md:block">
+                        <a href="/" class="hidden text-sm font-medium text-indigo-600 hover:text-indigo-500 md:block">
                             Shop the collection
                             <span aria-hidden="true"> &rarr;</span>
                         </a>
@@ -49,7 +49,7 @@ export class Products extends ThemeProvider {
                     </div>
         
                     <div class="mt-8 text-sm md:hidden">
-                        <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">
+                        <a href="/" class="font-medium text-indigo-600 hover:text-indigo-500">
                             Shop the collection
                             <span aria-hidden="true"> &rarr;</span>
                         </a>
